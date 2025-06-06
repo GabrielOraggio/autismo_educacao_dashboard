@@ -1,0 +1,106 @@
+.metric-title {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.dash-graph {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: #fff;
+}
+
+/* Estilo geral para os dropdowns */
+.Select-control {
+    background-color: #111 !important;
+    border: 1px solid #444 !important;
+    border-radius: 4px !important;
+    color: white !important;
+}
+
+.Select-input > input {
+    color: white !important;
+}
+
+.Select-value-label {
+    color: white !important;
+}
+
+.Select--single > .Select-control .Select-value {
+    color: white !important;
+}
+
+/* Menu suspenso */
+.Select-menu-outer {
+    background-color: #111 !important;
+    border: 1px solid #444 !important;
+    color: white !important;
+}
+
+/* Opções do dropdown */
+.VirtualizedSelectOption {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+/* Opção selecionada */
+.VirtualizedSelectFocusedOption {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+/* Ícone do dropdown */
+.Select-arrow-zone > .Select-arrow {
+    border-top-color: white !important;
+}
+
+/* Placeholder */
+.Select-placeholder {
+    color: #aaa !important;
+}
+
+/* Hover nas opções */
+.VirtualizedSelectOption:hover {
+    background-color: #333 !important;
+}
+
+/* Input selecionado */
+.Select.is-focused:not(.is-open) > .Select-control {
+    border-color: #555 !important;
+    box-shadow: none !important;
+}
+
+/* Para os RadioItems */
+.dash-radio-items label {
+    color: white !important;
+}
+
+/* Para os Checkboxes */
+.dash-checkboxes label {
+    color: white !important;
+}
+
+/* Para os DatePickers */
+.DateInput_input {
+    background-color: #111 !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+/* Para os Sliders */
+.rc-slider-track {
+    background-color: #3498db !important;
+}
+
+.rc-slider-handle {
+    border: 2px solid #3498db !important;
+}
