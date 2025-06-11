@@ -367,4 +367,4 @@ def update_graphs(anos, regiao, visualizacao, tipo_escola):
 
 # 6. Rodar o aplicativo
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(host='0.0.0.0', port=10000)
